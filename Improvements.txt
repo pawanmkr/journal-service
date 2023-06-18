@@ -1,0 +1,25 @@
+I could have improve this microservice further by:
+
+--->  using graphql to customize queries for only required data, 
+      hence to save bandwidth and maintain the overall application speed
+      --> as i have noticed when making update request we only need some specific data
+
+--->  running migrations to feed dummy data before testing
+
+--->  running automated tests
+
+--->  docker container for postgresDB
+
+--->  eslinting, for uniform code guideline or pattern
+
+--->  typescript for strict typechecking and to boost the development speed
+
+--->  lastly, to build a notification service we need RabbitMQ or Kafka and trigger the notification
+      when teachers tag students, we can maintain a Queue to keep track of the notification which are pending
+      and store the notification history in DB or temporarily in Redis Cache.
+
+IMPORTANT: I was not shortlisted but i am interested to work in Toddle,
+           i was following toddle since last to get chance, If my submission meets your criteria 
+           then i kindly request you to please allow me to appear for next round. Thank You
+
+.env is also included for covinience
